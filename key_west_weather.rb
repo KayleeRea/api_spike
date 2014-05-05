@@ -11,3 +11,5 @@ temperature = JSON.parse(json_data)["main"]["temp"]
 #gives the current description and temperature for Key West, FL
 puts "The current weather for Key West is:"
 puts description, temperature
+
+
