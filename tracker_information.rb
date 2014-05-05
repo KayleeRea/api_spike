@@ -13,6 +13,6 @@ end
 
 json_data = response.body
 
-projects = JSON.parse(json_data).map {|story| story["name"]}
+projects = JSON.parse(json_data).map {|name| name["name"]}
 
 p projects
